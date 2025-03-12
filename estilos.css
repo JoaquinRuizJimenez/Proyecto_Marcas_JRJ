@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    border-collapse: collapse;
+    min-height: 100vh;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Lexend;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+/* PÁGINA PRINCIPAL*/
+.cabecera-paginaPrincipal{
+
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #0f072e;
+    margin-top: 0;
+    text-align: center;
+
+}
+.texto-excelencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#4f4209;
+}
+.contenedor-video-lebron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.videoLebron-paginaPrincipal{
+    height: 500px;
+    width: max-content;
+    filter: blur(2px);
+}
